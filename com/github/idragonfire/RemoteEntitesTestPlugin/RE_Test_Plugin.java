@@ -84,7 +84,7 @@ public class RE_Test_Plugin extends JavaPlugin {
     }
 
     public void spawn(Location loc, RemoteEntityType type) {
-        manager.createNamedEntity(type, loc, null, true);
+        manager.createNamedEntity(type, loc, type == RemoteEntityType.Human ? "test-npc" : null, true);
     }
 
     public void spawnHuman(Location loc, String name) {
