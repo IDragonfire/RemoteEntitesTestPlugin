@@ -1,0 +1,12 @@
+name: RemoteEntitesTestPlugin
+author: IDragonfire
+version: 0.1
+main: com.github.idragonfire.RemoteEntitesTestPlugin.RE_Test_Plugin
+depend: [RemoteEntities]
+commands:
+  re:
+    aliases: ['r']
+    description: remote entities commands
+    usage: /<command> 
+    permission: remoteentitiestestplugin
+    permission-message: You don't have <permission>
